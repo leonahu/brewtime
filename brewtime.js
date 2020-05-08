@@ -9,7 +9,7 @@ const timerDisplay = document.querySelector(".timerDisplay");
 const startButton = document.querySelector(".startButton");
 
 const alarm = document.createElement('audio'); 
-alarm.setAttribute("src", "/alarm.mp3");
+alarm.setAttribute("src", "alarm.mp3");
 
 
 // event listener for start  
