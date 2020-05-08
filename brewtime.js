@@ -1,5 +1,5 @@
 
-let seconds = 240; // 4 mins
+let seconds = 4; // 4 mins
 let countdown = 0; // set/clear interval
 let isPaused = true;
 
