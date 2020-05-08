@@ -9,7 +9,7 @@ const timerDisplay = document.querySelector(".timerDisplay");
 const startButton = document.querySelector(".startButton");
 
 const alarm = document.createElement('audio'); 
-alarm.setAttribute("src", "https://www.soundjay.com/misc/sounds/bell-ringing-05.mp3");
+alarm.setAttribute("src", "./alarm.mp3");
 
 
 // event listener for start  
@@ -31,7 +31,7 @@ function timer(){
     seconds--; 
     if (seconds < 0 ) {
         clearInterval(countdown);
-        alarm.currentTime = 0;
+        
         alarm.play();
         countdown = setInterval(timer, 1000);
     }
