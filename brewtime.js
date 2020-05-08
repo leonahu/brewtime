@@ -1,5 +1,5 @@
 
-let seconds = 4; // 4 mins
+let seconds = 240; // 4 mins
 let countdown = 0; // set/clear interval
 let isPaused = true;
 
@@ -9,7 +9,7 @@ const timerDisplay = document.querySelector(".timerDisplay");
 const startButton = document.querySelector(".startButton");
 
 const alarm = document.createElement('audio'); 
-alarm.setAttribute("src", "https://leonahu.github.io/brewtime/alarm.mp3");
+alarm.setAttribute("src", "alarm.mp3");
 
 
 // event listener for start  
